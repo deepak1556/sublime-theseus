@@ -1,0 +1,21 @@
+{
+	"manifest_version" : 2,
+
+	"name" : "Theseus Debugger",
+	"description" : "Extending source panel debugging with theseus",
+	"version" : "0.0.1",
+
+	"permissions" : [
+		"<all_urls>"
+	],
+	"content_security_policy" : "script-src 'self' 'unsafe-eval'; object-src 'self'",
+	"devtools_page" : "devtools.html",
+	"content_scripts" : [{
+		"matches" : ["<all_urls>"],
+		"js" : ["content_script.js"],
+		"run_at" : "document_end"
+	}],
+	"background" : {
+		"scripts" : ["background.js"]
+	}
+}
