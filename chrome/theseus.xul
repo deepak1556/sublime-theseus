@@ -9,8 +9,12 @@
 ]>
 
 <window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-  <script type="application/javascript" src="theseus.js"/>
-  <hbox id="body" align="center" pack="center" flex="1">
-    <label id="hello-world" value="&theseus.label;"/>
+  <hbox id="body" flex="1">
+    <vbox id="js-editor" flex="1"/>
   </hbox>
+  	
+  <script type="application/javascript" src="vendor/ace/ace-noconflict.js"/>	
+  <script type="application/javascript" src="vendor/ace/mode-javascript-noconflict.js"/>
+  <script type="application/javascript" src="vendor/ace/theme-twilight-noconflict.js"/>
+  <script type="application/javascript" src="theseus.js"/>
 </window>
