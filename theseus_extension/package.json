@@ -1,0 +1,8 @@
+{
+    "preferences": [],
+    "name": "theseus-devtools",
+    "version": "0.0.1",
+    "fullName": "Theseus",
+    "id": "theseus-devtools@mozilla.com",
+    "description": "Theseus debugger for Firefox DevTools"
+}
