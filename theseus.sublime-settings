@@ -1,0 +1,10 @@
+{
+	"chrome_path" : {
+		"windows" : "C:\\Program Files\\Google\\Chrome\\chrome.exe"
+	},
+	"chrome_profile" : "Default",
+	"chrome_remote_port" : 9222,
+	"reload_on_start" : true,
+	"reload_on_save" : true,
+	"set_script_source" : false
+}
